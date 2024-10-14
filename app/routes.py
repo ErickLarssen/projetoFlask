@@ -10,15 +10,15 @@ link = "https://flasktinterick-default-rtdb.firebaseio.com/"
 @app.route('/')
 @app.route('/index')
 def index():
-    return render_template('index.html',titulo="Página Inicial")
+    return render_template('index.html',titulo="")
 
 @app.route('/contato')
 def contato():
-    return render_template('contato.html', titulo="Contatos")
+    return render_template('contato.html', titulo="Consultar CPF")
 
 @app.route('/cadastro')
 def cadastro():
-    return render_template('cadastro.html', titulo="Cadastrar")
+    return render_template('cadastro.html', titulo="Cadastrar CPF")
 
 @app.route('/cadastrarUsuario', methods=['POST'])
 def cadastrarUsuario():
