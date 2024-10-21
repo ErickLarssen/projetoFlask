@@ -26,6 +26,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0.7;
 }
 
 .navbar ul{
@@ -67,6 +68,21 @@ body {
     backgroung-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.container-secundarios{
+    font-family: "eurostile-extended", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 20px;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
 }
 
 label{
@@ -138,40 +154,30 @@ h1, h2, h3{
 }
 
 .botoes{
-    align-content: center;
-    text-align: center;
-    margin-top: 60px;
-    margin-left: 600px;
     display: flex;
-    position: absolute;
-    gap: 25px;
-    text-style-list: none;
-    background-color: #333;
-    padding: 10px 20px;
-    border-radius: 8px;
-}
+    justify-content: center;
+    margin-top: 50px;
 
-.botoes ul{
-    list-style-type:none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-
-.botoes li{
-    margin-right: 20px;
 }
 
 .botoes a{
+    background-color: #4CAF50;
     color: white;
     text-decoration: none;
     font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
     transition: color 0.3s, transform 0.3s;
 }
 
 .botoes a:hover{
-    color: #ff9800;
+    color: #45a049;
     transform: scale(1.1);
+}
+
+.botoes a:active{
+    transform: scale(0.95);
 }
 
 .rodape{

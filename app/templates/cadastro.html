@@ -4,23 +4,26 @@
 <div class="container-form">
   <form action="/cadastrarUsuario" method="POST">
       <label class="cpf">CPF</label>
-      <input type="text" name="cpf" id="cpf"/><br><br>
+      <input type="text" name="cpf" id="cpf" placeholder="Digite seu CPF"/><br><br>
 
       <label class="name">Nome</label>
-      <input type="text" name="nome" id="nome"/><br><br>
+      <input type="text" name="nome" id="nome" placeholder="Digite seu nome"/><br><br>
 
       <label class="telephone">Telefone</label>
-      <input type="text" name="telefone" id="telefone"/><br><br>
+      <input type="text" name="telefone" id="telefone" placeholder="Digite seu telefone"/><br><br>
 
       <label class="address">Endereço</label>
-      <input type="text" name="endereco" id="endereco"/><br><br>
+      <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço"/><br><br>
 
       <button class="cadastrar">Cadastrar</button>
     </form>
 </div>
-  <a href="/listar">Consultar Tudo</a><br><br>
-  <a href="/listarIndividual">Consultar Individual</a><br><br>
-  <a href="/atualizar">Atualizar</a><br><br>
-  <a href="/excluir">Excluir</a><br><br>
+
+<div class="container-secundarios">
+  <a class="botao1" href="/listar">Consultar Tudo</a><br><br>
+  <a class="botao2" href="/listarIndividual">Consultar Individual</a><br><br>
+  <a class="botao3" href="/atualizar">Atualizar</a><br><br>
+  <a class="botao4" href="/excluir">Excluir</a><br><br>
+</div>
 {% endblock %}
 
